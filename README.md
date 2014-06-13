@@ -7,11 +7,6 @@ Para que haja maior organização dos arquivos que são versionados no
 ===
 Como padrão, deve ser colocado entre coxetes e caixa alta, o tipo de ação utilizada para versionar um ou mais arquivos, podendo ser utilizada mais de uma ação no versionamento do código e logo após um breve comentário do que foi realizado. 
 
-* Exemplo 1: [UPDATE] Refatoração da classe. 
-
-* Exemplo 2: [ADD/UPDATE/MOVE] Descrição do que foi realizado em um ou mais arquivos. 
-
-
 Lista de ações adotar o padrão abaixo: 
 
 * [ADD] ­ Adição de novos arquivos no projeto;
@@ -32,3 +27,11 @@ bilidade de código-­fonte por outros membros da equipe;
 * [MERGE] ­ Utilizado quando é realizado o merge de arquivos;
 
 * [RENAME] ­ Utilizado quando um arquivo é renomeado.
+
+ 
+Exemplos
+===
+
+* Exemplo 1: [UPDATE] Refatoração da classe. 
+
+* Exemplo 2: [ADD/UPDATE/MOVE] Descrição do que foi realizado em um ou mais arquivos. 
