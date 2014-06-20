@@ -28,6 +28,9 @@ bilidade de código-­fonte por outros membros da equipe;
 
 * [RENAME] ­ Utilizado quando um arquivo é renomeado.
 
+* [LOCK] Utilizado quando é aplicado um lock em um arquivo.
+
+
  
 Exemplos
 ===
