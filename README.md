@@ -17,6 +17,8 @@ Lista de ações adotar o padrão abaixo:
 
 * [UPDATE] ­ Melhoria de um arquivo já existente;
 
+* [REFACTOR] ­ Refatoração de código-fonte
+
 * [BACKUP] Funcionalidade incompleta, mas para garantir a segurança e reusa
 bilidade de código-­fonte por outros membros da equipe;
 
