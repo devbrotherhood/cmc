@@ -32,7 +32,7 @@ bilidade de código-­fonte por outros membros da equipe;
 
 * [LOCK] Utilizado quando é aplicado um lock em um arquivo.
 
-
+* [ REWORK ] Utilizado quando há retrabalho
  
 Exemplos
 ===
