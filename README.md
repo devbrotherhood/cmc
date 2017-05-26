@@ -13,56 +13,56 @@ Como padrão, deve ser colocado entre coxetes e caixa alta, o tipo de a�
 
 ## Lista de ações e suas respectivas funções 
 
-[ ADD ] 
+#### [ ADD ] 
 ```
  Utilizado para quando arquivos são adicionados no projeto;
 ```
-[ REMOVE ]
+#### [ REMOVE ]
 ```
  Utilizado para sinalizar a remoção de arquivos;
 ```
-[ MOVE ]
+#### [ MOVE ]
 ```
  Utilizado quando algum arquivo é movido de um diretório para outro.
 ```
-[ UPDATE ]
+#### [ UPDATE ]
 ```
  Utilizado para melhoria de um arquivo já existente;
 ```
-[ REFACTOR ]
+#### [ REFACTOR ]
 ```
  Utilizado para refatoração de código-fonte
 ```
-[ PATCH ]
+#### [ PATCH ]
 ```
  Utilizado para representar rotinas de para correções temporárias.
 ```
-[ FIX ]
+#### [ FIX ]
 ```
  Utilizado para representar Correção de um erro/falha, identificada pelo gestor ou equipe que está trabalhando no código-fonte;
 ```
-[ MERGE ]
+#### [ MERGE ]
 ```
  Utilizado quando é realizado o merge de arquivos;
 ```
-[ RENAME ]
+#### [ RENAME ]
 ```
  Utilizado quando um arquivo é renomeado.
 ```
-[ REWORK ]
+#### [ REWORK ]
 ```
  Utilizado quando há retrabalho
 ```
 
 ## Exemplos
 
-Exemplo 1: 
+#### Exemplo 1: 
 ```
 [ ADD ] Adicionados módulo para realizar transações bancárias
 [ UPDATE ] Criação de funcionalidade que permite realizar pagamentos utilizando o cartão de crédito da bandeira XPTO.
 [ MOVE ] Classes que não faziam parte do escopo das transações bancárias foram movidas para seus respectivos módulos
 ```
-Exemplo 2: 
+#### Exemplo 2: 
 ```
 [ REFACTOR ] Refatoração da classe XPTO para que fique mais coesa.
 [ MERGE ] Merge da branch feature-album com a branch develop
