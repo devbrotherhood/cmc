@@ -1,42 +1,70 @@
-PVC( Padrão de versionamento de código )
+PVC
 ===
 
+## Significado
 
-Para que haja maior organização dos arquivos que são versionados no repositório, devemos inserir comentários precedidos pelas ações que foram executadas nos arquivos versionados. Portanto, decidi criar um padrão de versionamento de código para que fique mais flexivel identificar o que foi realizado nos commits. 
+PVC significa Padrão de versionamento de código.
 
-===
-Como padrão, deve ser colocado entre coxetes e caixa alta, o tipo de ação utilizada para versionar um ou mais arquivos, podendo ser utilizada mais de uma ação no versionamento do código e logo após um breve comentário do que foi realizado. 
+## Sobre
+Para que haja maior organização dos arquivos que são versionados no repositório, devemos inserir comentários precedidos pelas ações que foram executadas nos arquivos versionados. Dessa maneira o versionamento de código-fonte fica mais flexivel e coeso, facilitando a identificação do que foi realizado. 
 
-Lista de ações adotar o padrão abaixo: 
+## Como utilizar
+Como padrão, deve ser colocado entre coxetes e caixa alta, o tipo de ação utilizada para versionar os arquivos, podendo ser utilizada mais de uma ação no versionamento do código e logo após um breve comentário do que foi realizado. 
 
-* [ ADD ] ­ Adição de novos arquivos no projeto;
+## Lista de ações e suas respectivas funções 
 
-* [ REMOVE ] ­ Utilizado para sinalizar a remoção de arquivos;
+* [ ADD ] 
+```
+ Utilizado para quando arquivos são adicionados no projeto;
+```
+* [ REMOVE ]
+```
+ Utilizado para sinalizar a remoção de arquivos;
+```
+* [ MOVE ]
+```
+ Utilizado quando algum arquivo é movido de um diretório para outro.
+```
+* [ UPDATE ]
+```
+ Utilizado para melhoria de um arquivo já existente;
+```
+* [ REFACTOR ]
+```
+ Utilizado para refatoração de código-fonte
+```
+* [ PATCH ]
+```
+ Utilizado para representar rotinas de para correções temporárias.
+```
+* [ FIX ]
+```
+ Utilizado para representar Correção de um erro/falha, identificada pelo gestor ou equipe que está trabalhando no código-fonte;
+```
+* [ MERGE ]
+```
+ Utilizado quando é realizado o merge de arquivos;
+```
+* [ RENAME ]
+```
+ Utilizado quando um arquivo é renomeado.
+```
+* [ REWORK ]
+```
+ Utilizado quando há retrabalho
+```
 
-* [ MOVE ] ­ Utilizado quando algum arquivo é movido de um diretório para outro.
+## Exemplos
 
-* [ UPDATE ] ­ Melhoria de um arquivo já existente;
+* Exemplo 1: 
+```
+[ ADD ] Adicionados módulo para realizar transações bancárias
+[ UPDATE ] Criação de funcionalidade que permite realizar pagamentos utilizando o cartão de crédito da bandeira XPTO.
+[ MOVE ] Classes que não faziam parte do escopo das transações bancárias foram movidas para seus respectivos módulos
+```
 
-* [ REFACTOR ] ­ Refatoração de código-fonte
-
-* [ BACKUP ] Funcionalidade incompleta, mas para garantir a segurança e reusa
-bilidade de código-­fonte por outros membros da equipe;
-
-* [ PATCH ] ­ Correção de um erro/falha, identificado pela equipe que está trabalhando no código-fonte;
-
-* [ FIX ] ­ Correção de um erro/falha, identificada pelo gestor;
-
-* [ MERGE ] ­ Utilizado quando é realizado o merge de arquivos;
-
-* [ RENAME ] ­ Utilizado quando um arquivo é renomeado.
-
-* [ LOCK ] Utilizado quando é aplicado um lock em um arquivo.
-
-* [ REWORK ] Utilizado quando há retrabalho
- 
-Exemplos
-===
-
-* Exemplo 1: [ UPDATE ] Refatoração da classe. 
-
-* Exemplo 2: [ ADD / UPDATE / MOVE ] Descrição do que foi realizado em um ou mais arquivos. 
+* Exemplo 2: 
+```
+[ REFACTOR ] Refatoração da classe XPTO para que fique mais coesa.
+[ MERGE ] Merge da branch feature-album com a branch develop
+```
