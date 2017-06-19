@@ -8,16 +8,6 @@ PVC significa Padrão de versionamento de código.
 ## Sobre
 Para que haja maior organização dos arquivos que são versionados no repositório, devemos inserir comentários precedidos pelas ações que foram executadas nos arquivos versionados. Dessa maneira o versionamento de código-fonte fica mais flexivel e coeso, facilitando a identificação do que foi realizado. 
 
-## Como utilizar
-Como padrão, deve ser colocado entre colchetes e caixa alta, o tipo de ação utilizada para versionar os arquivos, podendo ser utilizada mais de uma ação no versionamento do código. Após, caso se aplique, indique o módulo / funcionalidade e dois pontos; por último, descreva num breve comentário o que foi realizado. 
-
-Exemplos:
-
-    [ FIX ] Módulo/nome_funcionalidade: descrição da alteração
-    [ UPDATE ] Descrição da alteração
-    [ ADD ] [ FIX ] Descrição da alteração   
-
-
 ## Lista de ações e suas respectivas funções 
 
 #### [ ADD ] 
@@ -60,6 +50,8 @@ Exemplos:
 ```
  Utilizado quando há retrabalho
 ```
+## Como utilizar
+Como padrão, deve ser colocado entre colchetes e caixa alta, o tipo de ação utilizada para versionar os arquivos, podendo ser utilizada mais de uma ação no versionamento do código. Após, caso se aplique, indique o módulo / funcionalidade e dois pontos; por último, descreva num breve comentário o que foi realizado. 
 
 ## Exemplos
 
@@ -74,3 +66,9 @@ Exemplos:
 [ REFACTOR ] Refatoração da classe XPTO para que fique mais coesa.
 [ MERGE ] Merge da branch feature-album com a branch develop
 ```
+#### Exemplo 3:
+```
+[ FIX ] Módulo/nome_funcionalidade: descrição da alteração
+[ UPDATE ] Descrição da alteração
+[ ADD ] [ FIX ] Descrição da alteração   
+``` 
