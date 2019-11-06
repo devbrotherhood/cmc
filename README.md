@@ -1,11 +1,6 @@
-PVC
+Padrao de versionamento de Código (PVC)
 ===
 
-## Significado
-
-PVC significa Padrão de versionamento de código.
-
-## Sobre
 Para que haja maior organização dos arquivos que são versionados no repositório, devemos inserir comentários precedidos pelas ações que foram executadas nos arquivos versionados. Dessa maneira o versionamento de código-fonte fica mais flexivel e coeso, facilitando a identificação do que foi realizado. 
 
 ## Como utilizar
