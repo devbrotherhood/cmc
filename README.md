@@ -12,8 +12,8 @@ By default, it should be enclosed in square brackets, the type of action used to
 
 The options below represent options that can be used at the beginning of each commit.
 
-|Actions|Description|
-|:-:	|:-:	    |
+|Actions    |Description|
+|:-:	      |:-:	    |
 |[ADD]      | Used for when files are added to the project|
 |[REMOVE]   | Used to signal file removal|
 |[MOVE]     | Used when a file is moved from one directory to another.|
@@ -40,12 +40,15 @@ Creation of functionality that allows you to make payments using the XPTO flag c
 
 ### Modular Messages
 ```
-[FIX] Module / FunctionName
+[FIX] Module/FunctionName: Description
 
 Describing what was done in this fix.
 ```
 
-### Action Grouping
+## How not to use
+
+It is not good practice to group multiple actions in the same commit. It is recommended that commits be linked to action.
+
 ```
 [UPDATE/FIX] Description of the change and correction.
 ```
