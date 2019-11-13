@@ -1,3 +1,5 @@
+![thumb-image](./images/android-chrome-192x192.png) 
+
 Code Versioning Standard (CVS)
 ===
 
