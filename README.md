@@ -1,44 +1,44 @@
-Padrao de versionamento de Código (PVC)
+Code Versioning Standard (CVS)
 ===
 
-Para que haja maior organização dos arquivos que são versionados no repositório, devemos inserir comentários precedidos pelas ações que foram executadas nos arquivos versionados. Dessa maneira o versionamento de código-fonte fica mais flexivel e coeso, facilitando a identificação do que foi realizado. 
+For better organization of the files that are versioned in the repository, we must insert comments preceded by the actions that were performed on the versioned files. This way the source code versioning is more flexible and cohesive, making it easier to identify what was done.
 
-## Como utilizar
-Como padrão, deve ser colocado entre colchetes e caixa alta, o tipo de ação utilizada para versionar os arquivos, podendo ser utilizada mais de uma ação no versionamento do código. Após, caso se aplique, indique o módulo / funcionalidade e dois pontos; por último, descreva num breve comentário o que foi realizado. 
+## How to use
+By default, it should be enclosed in square brackets, the type of action used to version files, and more than one action can be used in versioning code. Then, if applicable, indicate module / functionality and a colon; Finally, describe in a brief comment what was accomplished.
 
-## Ações
-- [ADD] Utilizado para quando arquivos são adicionados no projeto;
-- [REMOVE] Utilizado para sinalizar a remoção de arquivos;
-- [MOVE] Utilizado quando algum arquivo é movido de um diretório para outro.
-- [UPDATE] Utilizado para melhoria de um arquivo já existente;
-- [REFACTOR] Utilizado para refatoração de código-fonte
-- [PATCH] Utilizado para representar rotinas de para correções temporárias.
-- [FIX] Utilizado para representar Correção de um erro/falha, identificada pelo gestor ou equipe que está trabalhando no código-fonte;
-- [MERGE] Utilizado quando é realizado o merge de arquivos;
-- [RENAME] Utilizado quando um arquivo é renomeado.
+## Actions
+- [ADD] Used for when files are added to the project;
+- [REMOVE] Used to signal file removal;
+- [MOVE] Used when a file is moved from one directory to another.
+- [UPDATE] Used to enhance an existing file;
+- [REFACTOR] Used for source code refactoring
+- [PATCH] Used to represent routines for interim fixes.
+- [FIX] Used to represent Error / Fault Correction, identified by the manager or team working on the source code;
+- [MERGE] Used when file merge is performed;
+- [RENAME] Used when a file is renamed.
 
-## Formas de utilização
+## Usage
 
-### Mensagem Padrão
-```
-[ ADD ] Definição de arquivos xyz
-```
+### Default Message
+`` `
+[ADD] Definition of xyz Files
+`` `
 
-### Titulo e descrição
-```
-[ UPDATE ] Pagamento utilizando cartões
+### Title and Description
+`` `
+[UPDATE] Payment using cards
 
-Criação de funcionalidade que permite realizar pagamentos utilizando o cartão de crédito da bandeira XPTO.
-```
+Creation of functionality that allows you to make payments using the XPTO flag credit card.
+`` `
 
-### Mensagens por módulos 
-```
-[ FIX ] Módulo/nome_funcionalidade
+### Modular Messages
+`` `
+[FIX] Module / FunctionName
 
-Descrevendo o que foi feito nessa correção.
-```
+Describing what was done in this fix.
+`` `
 
-### Agrupamento de ações
-```
-[UPDATE/FIX] Descrição da alteração e correção.
-``` 
+### Action Grouping
+`` `
+[UPDATE / FIX] Description of the change and correction.
+`` `
