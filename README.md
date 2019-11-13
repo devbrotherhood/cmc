@@ -3,7 +3,7 @@
 Code Versioning Standard (CVS)
 ===
 
-For better organization of the files that are versioned in the repository, we must insert comments preceded by the actions that were performed on the versioned files. This way the source code versioning is more flexible and cohesive, making it easier to identify what was done.
+Code Versioning Standard (CVS) is designed to support GIT or SVN projects for better organization of the files that are versioned in the repository, we must insert comments preceded by the actions that were performed on the versioned files. This way the source code versioning is more flexible and cohesive, making it easier to identify what was done.
 
 ## How to use
 By default, each action should be enclosed in brackets preceded by what was performed clearly and objectively during code versioning.
