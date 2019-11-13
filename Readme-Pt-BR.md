@@ -1,7 +1,7 @@
 Code Versioning Standard (CVS)
 ===
 
-Para que haja maior organização dos arquivos que são versionados no repositório, devemos inserir comentários precedidos pelas ações que foram executadas nos arquivos versionados. Dessa maneira o versionamento de código-fonte fica mais flexivel e coeso, facilitando a identificação do que foi realizado. 
+O  Code Versioning Standard (CVS) foi desenvolvido para oferecer suporte a projetos **GIT** ou **SVN** para que haja maior organização dos arquivos que são versionados no repositório. Devemos inserir comentários precedidos pelas ações que foram executadas nos arquivos versionados. Dessa maneira o versionamento de código-fonte fica mais flexivel e coeso, facilitando a identificação do que foi realizado. 
 
 ## Como utilizar
 
@@ -10,7 +10,6 @@ Como padrão, cada ação deve ser colocada entre colchetes precedido do que foi
 ## Ações
 
 As opções abaixo representam opções que podem ser usadas no início de cada confirmação.
-
 
 | Ações    | Descrição |
 |:-:       |:-: |
