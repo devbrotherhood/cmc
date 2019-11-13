@@ -20,25 +20,25 @@ By default, it should be enclosed in square brackets, the type of action used to
 ## Usage
 
 ### Default Message
-`` `
+```
 [ADD] Definition of xyz Files
-`` `
+```
 
 ### Title and Description
-`` `
+```
 [UPDATE] Payment using cards
 
 Creation of functionality that allows you to make payments using the XPTO flag credit card.
-`` `
+```
 
 ### Modular Messages
-`` `
+```
 [FIX] Module / FunctionName
 
 Describing what was done in this fix.
-`` `
+```
 
 ### Action Grouping
-`` `
-[UPDATE / FIX] Description of the change and correction.
-`` `
+```
+[UPDATE/FIX] Description of the change and correction.
+```
