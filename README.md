@@ -42,3 +42,6 @@ Describing what was done in this fix.
 ```
 [UPDATE/FIX] Description of the change and correction.
 ```
+
+## Languages
+- [PT-BR](./Readme-PT-BR)
