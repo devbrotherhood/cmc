@@ -9,15 +9,20 @@ For better organization of the files that are versioned in the repository, we mu
 By default, it should be enclosed in square brackets, the type of action used to version files, and more than one action can be used in versioning code. Then, if applicable, indicate module / functionality and a colon; Finally, describe in a brief comment what was accomplished.
 
 ## Actions
-- [ADD] Used for when files are added to the project;
-- [REMOVE] Used to signal file removal;
-- [MOVE] Used when a file is moved from one directory to another.
-- [UPDATE] Used to enhance an existing file;
-- [REFACTOR] Used for source code refactoring
-- [PATCH] Used to represent routines for interim fixes.
-- [FIX] Used to represent Error / Fault Correction, identified by the manager or team working on the source code;
-- [MERGE] Used when file merge is performed;
-- [RENAME] Used when a file is renamed.
+
+The options below represent options that can be used at the beginning of each commit.
+
+|Actions|Description|
+|:-:	|:-:	    |
+|[ADD]      | Used for when files are added to the project|
+|[REMOVE]   | Used to signal file removal|
+|[MOVE]     | Used when a file is moved from one directory to another.|
+|[UPDATE]   | Used to enhance an existing file|
+|[REFACTOR] | Used for source code refactoring|
+|[PATCH]    | Used to represent routines for interim fixes.|
+|[FIX]      | Used to represent Error / Fault Correction, identified by the manager or team working on the source code|
+|[MERGE]    | Used when file merge is performed|
+|[RENAME]   | Used when a file is renamed.|
 
 ## Usage
 
