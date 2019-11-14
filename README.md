@@ -1,9 +1,9 @@
 ![thumb-image](./images/android-chrome-192x192.png) 
 
-Code Versioning Standard (CVS)
+Commit Messages Convention (CMC)
 ===
 
-Code Versioning Standard (CVS) is designed to support GIT or SVN projects for better organization of the files that are versioned in the repository, we must insert comments preceded by the actions that were performed on the versioned files. This way the source code versioning is more flexible and cohesive, making it easier to identify what was done.
+Commit Messages Convention (CMC) is designed to support GIT or SVN projects for better organization of the files that are versioned in the repository, we must insert comments preceded by the actions that were performed on the versioned files. This way the source code versioning is more flexible and cohesive, making it easier to identify what was done.
 
 ## How to use
 By default, each action should be enclosed in brackets preceded by what was performed clearly and objectively during code versioning.
