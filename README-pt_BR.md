@@ -44,12 +44,12 @@ Os tipos abaixo representam opções que podem ser usadas no início de cada _co
 
 ### Tipos especiais
 
-Os tipos especiais devem ser utilizados em conjunto com os tipos anteriores
+E RECOMENDADO que os tipos especiais sejam utilizados em conjunto com os tipos anteriores, porem, eles PODEM ser usados em qualquer parte da mensagem.
 
 | Tipo                              | Descrição |
 |:-:                                | :-: |
 |[WIP]                              | Quando um desenvolvimento ainda esta em progresso |
-|[BREAKING] ou [BREAKING CHANGE]    | Quando o _commit_ inclui uma modificação que quebra a compatibilidade. Pode ser usado em qualquer parte do _commit_ (descrição, corpo ou rodapé) |
+|[BREAKING] ou [BREAKING CHANGE]    | Quando o _commit_ inclui uma modificação que quebra a compatibilidade. PODE ser usado em qualquer parte do _commit_ (<descrição>, <corpo> ou <rodapé>) |
 
 #### Exemplos:
 ```
@@ -61,7 +61,7 @@ Os tipos especiais devem ser utilizados em conjunto com os tipos anteriores
 
 ### Descrição
 
-Para a mensagem de descrição e do corpo do _commit_, faz-se o uso do padrao ["Commit Message Guide"](https://github.com/RomuloOliveira/commit-messages-guide/blob/master/README_pt-BR.md) do @RomuloOliveira, que basicamente consiste em:
+Para a mensagem de <descrição> e do <corpo> do _commit_, faz-se o uso do padrao ["Commit Message Guide"](https://github.com/RomuloOliveira/commit-messages-guide/blob/master/README_pt-BR.md) do @RomuloOliveira, que basicamente consiste em:
 - **Usar o imperativo**: A mensagem de _commit_ diz o que ele faz, não o que foi **feito**.
 - **Primeira letra em maiúsculo**: porque é assim que se começa uma frase em qualquer texto.
 - **Tente comunicar o que o _commit_ faz sem que seja necessário olhar o conteúdo do _commit_.**
@@ -70,12 +70,12 @@ Para a mensagem de descrição e do corpo do _commit_, faz-se o uso do padrao ["
 
 - **Use o corpo da mensagem para explicar "porquê", "para quê", "como" e detalhes adicionais.**
 - **Evite _commits_ com mensagens genéricas ou sem contexto algum.**
-- **Tente limitar o nº de colunas das mensagens:** Recomenda-se 50 caracteres para o título e por volta de 72 para o corpo.
+- **Tente limitar o nº de colunas das mensagens:** Recomenda-se 50 caracteres para a <descrição> e por volta de 72 para o <corpo>.
 - **Mantenha consistência de idioma:** Escolha um idioma e mantenha-se nele.
 
 ### Rodapé
 
-Um rodapé de uma ou mais linhas PODE ser fornecido depois de uma --linha em branco-- após o <corpo>.
+Um <rodapé> de uma ou mais linhas PODE ser fornecido depois de uma --linha em branco-- após o <corpo>.
 O <rodapé> DEVE conter informações adicionais sobre o _commit_, por exemplo, numero da issue/task, pull-requests, revisores, modificações que quebram a compatibilidade, com uma informação adicional por linha.
 
 ## Exemplos
