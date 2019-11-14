@@ -43,7 +43,7 @@ Creation of functionality that allows you to make payments using the XPTO flag c
 If **modules** and **functionality** are used, use the pattern `[action] module / functionality:` preceded by a brief description.
 
 ```
-[FIX] Module/FunctionName: Description
+[FIX] Module/Feature: Description
 
 Describing what was done in this fix.
 ```
