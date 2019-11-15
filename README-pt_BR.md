@@ -62,7 +62,7 @@ E RECOMENDADO que os tipos especiais sejam utilizados em conjunto com os tipos a
 ### Descrição
 
 Para a mensagem de <descrição> e do <corpo> do _commit_, faz-se o uso do padrao ["Commit Message Guide"](https://github.com/RomuloOliveira/commit-messages-guide/blob/master/README_pt-BR.md) do @RomuloOliveira, que basicamente consiste em:
-- **Usar o imperativo**: A mensagem de _commit_ diz o que ele faz, não o que foi **feito**.
+- **Usar a terceira pessoa do singular do presente do indicativo**: A mensagem de _commit_ diz o que ele faz, não o que foi **feito**.
 - **Primeira letra em maiúsculo**: porque é assim que se começa uma frase em qualquer texto.
 - **Tente comunicar o que o _commit_ faz sem que seja necessário olhar o conteúdo do _commit_.**
 
