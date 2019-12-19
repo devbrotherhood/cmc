@@ -6,6 +6,7 @@ Commit Messages Convention (CMC)
 Commit Messages Convention (CMC) is designed to help **GIT** or **SVN** projects to a better organization of commits in the repository.
 It defines that commenting must be preceded by the types of actions that were performed on versioned files.
 This makes source code versioning more flexible and cohesive, making it easier to identify what has been done.
+
 This convention follows [SemVer](http://semver.org/), describing features, fixes, and modifications that break compatibility in commit messages. 
 
 ## Specification
@@ -49,7 +50,6 @@ Is RECOMMENDED that special types to use in conjunction with previous types, how
 |:-:                                | :-: |
 |`[WIP]`                            | When a development is still in progress |
 |`[BREAKING]` or `[BREAKING CHANGE]`| When commit includes a modification that breaks compatibility. MAY be used anywhere in commit (`<description>`, `<body>` or `<footer>`) |
-
 
 #### Examples:
 ```

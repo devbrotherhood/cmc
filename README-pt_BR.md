@@ -44,7 +44,7 @@ Os tipos abaixo representam opções que podem ser usadas no início de cada _co
 
 ### Tipos especiais
 
-E RECOMENDADO que os tipos especiais sejam utilizados em conjunto com os tipos anteriores, porem, eles PODEM ser usados em qualquer parte da mensagem.
+É RECOMENDADO que os tipos especiais sejam utilizados em conjunto com os tipos anteriores, porem, eles PODEM ser usados em qualquer parte da mensagem.
 
 | Tipo                              | Descrição |
 |:-:                                | :-: |
